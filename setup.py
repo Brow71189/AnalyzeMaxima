@@ -10,7 +10,7 @@ from distutils.core import setup
 from distutils.extension import Extension
 
 setup(
-      name = 'analyze maxima',
+      name = 'AnalyzeMaxima',
       py_modules = ['AnalyzeMaxima.local_maxima'],
       ext_modules = [Extension('AnalyzeMaxima.analyze_maxima', ['AnalyzeMaxima/analyze_maxima.c'])],
 )
